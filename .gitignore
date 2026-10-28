@@ -1,0 +1,27 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# Local SQLite databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment variables and backups
+.env
+.env.*
+app_backup.py
+
+# macOS temporary files
+.DS_Store
